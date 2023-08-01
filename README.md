@@ -9,6 +9,7 @@
 - "FINAL-NOTEBOOK_ArtifactPrototype"
   - Artifact Prototype for 3D Pose Data Generation
   - Place .mkv-Record in folder "1_input_extract" and run the Notebook cells
+  - If all cells are executed, the final data is stored under "3_output_depth3d"
 - "FINAL-NOTEBOOK_UseCase1"
   - Visualization of the generated 3D pose data
   - If needed, adapt the .xlsx-Filepaths
