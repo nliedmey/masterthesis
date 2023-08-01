@@ -7,4 +7,4 @@
 
 ## Execution
 - "FINAL-NOTEBOOK_ArtifactPrototype"
-  --> Artifact Prototype for 3D Pose Data Generation
+  - Artifact Prototype for 3D Pose Data Generation
