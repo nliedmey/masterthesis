@@ -17,8 +17,8 @@ def calculateWorldTransMat(frame, intrinsic_coefficients, distortion_coefficient
                                                                        distortion_coefficients)
         # cv2.drawFrameAxes(frame, intrinsic_coefficients, distortion_coefficients, rvec, tvec, 2500, 5)
         # cv2.putText(frame, f"id: {id[0]} Distance: {round(distance, 3)}", top_left, cv2.FONT_HERSHEY_SIMPLEX, 1, (255,0,0), 2, cv2.LINE_AA)
-        if frame_number < 10:
-                cv2.imwrite("snapshots/coordinatesystem{}.jpg".format(frame_number), frame)
+        # if frame_number < 10:
+        #         cv2.imwrite("snapshots/coordinatesystem{}.jpg".format(frame_number), frame)
         ## CREATE TRANSFORMATION MATRIX FROM ROTATION AND TRANSLATION VECTORS
         # convert rvec to rotation matrix
         rmat, _ = cv2.Rodrigues(rvec)
@@ -62,7 +62,7 @@ def calculateWorldTransMatWithCameraAngle(frame, intrinsic_coefficients, distort
                                                                        distortion_coefficients)
         cv2.drawFrameAxes(frame, intrinsic_coefficients, distortion_coefficients, rvec, tvec, 3000, 3)
         # cv2.putText(frame, f"id: {id[0]} Distance: {round(distance, 3)}", top_left, cv2.FONT_HERSHEY_SIMPLEX, 1, (255,0,0), 2, cv2.LINE_AA)
-        cv2.imwrite("originals/screenshots/test_koordinatensystem{}.jpg".format(frame_number), frame)
+        # cv2.imwrite("originals/screenshots/test_koordinatensystem{}.jpg".format(frame_number), frame)
         ## CREATE TRANSFORMATION MATRIX FROM ROTATION AND TRANSLATION VECTORS
         # convert rvec to rotation matrix
         rmat, _ = cv2.Rodrigues(rvec)
