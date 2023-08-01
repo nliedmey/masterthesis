@@ -8,3 +8,10 @@
 ## Execution
 - "FINAL-NOTEBOOK_ArtifactPrototype"
   - Artifact Prototype for 3D Pose Data Generation
+  - Place .mkv-Record in folder "1_input_extract" and run the Notebook cells
+- "FINAL-NOTEBOOK_UseCase1"
+  - Visualization of the generated 3D pose data
+  - If needed, adapt the .xlsx-Filepaths
+- "FINAL-NOTEBOOK_UseCase2"
+  - Classification of BonaFide, Mask-Attack and Shirt-Attack
+  - Exemplary records for training / prediction are stored under "4_input_classification"
