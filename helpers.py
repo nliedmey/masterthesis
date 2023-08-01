@@ -5,6 +5,7 @@ import numpy as np
 
 from pyk4a import ImageFormat
 
+## Functions taken from https://github.com/etiennedub/pyk4a/blob/master/example/helpers.py
 
 def convert_to_bgra_if_required(color_format: ImageFormat, color_image):
     # examples for all possible pyk4a.ColorFormats
